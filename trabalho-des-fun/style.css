@@ -1,0 +1,67 @@
+/* limpar formatações */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+#header{
+    background-color: rgb(74, 74, 74);
+    padding: 20px;
+    text-align: center;
+}
+
+#logo,#menu{
+    padding: 15px;
+}
+
+#header a:link, #header a:visited{
+color: whitesmoke;
+padding: 10px 14px;
+}
+
+#header a:hover{
+    color: whitesmoke;
+    background: #828589;
+    text-decoration: none;
+    height: 12px;
+}
+
+/* formatação de link */
+
+a{
+    text-decoration: none;
+}
+
+#header a href:sobre.html
+
+/* content */
+#content{
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* footer */
+#footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    clear: both;
+    text-align: center;
+    padding: 5px;
+    background: rgb(177, 173, 173);
+    color: #828589;
+}
+
+.post{
+   background-color: white;
+   padding: 25px;
+    text-align: center;
+}
+.post-center{
+    padding: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
